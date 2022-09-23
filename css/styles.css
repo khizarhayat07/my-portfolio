@@ -1,9 +1,39 @@
 h2{
     color: blue;
 }
-.recent {
+ {
     color: rgb(16, 64, 224);
 }
 .drone {
     color: rgb(189, 22, 22) ;
+}
+.card {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius:3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+}
+.card .card-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.card .card-body div:nth-child(3){
+    font-weight: bolder;
+
+}
+.card .card-body div:nth-child(1),
+.card .card-body div:nth-child(2){
+    color: #666;
+}
+.bold {
+    font-size: 20px;
+}
+.mig{
+    margin-bottom: 20px;
 }
